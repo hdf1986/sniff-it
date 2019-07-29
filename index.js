@@ -31,9 +31,9 @@ app.use('*', (req, res) => {
 
 app.listen(port, () => console.log(`Sniff-it app listening on port ${port}!`));
 
-// (async function() {
-//   const url = await ngrok.connect({
-//     addr: port
-//   });
-//   console.log(`Your sniffer url is ${url}`)
-// })();
+(async function() {
+  const url = await ngrok.connect({
+    addr: port
+  });
+  console.log(`Your sniffer url is ${url}`)
+})();

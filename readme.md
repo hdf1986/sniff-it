@@ -4,6 +4,6 @@ This tool is intended to be used for inspecting HTTP requests, debug webhooks, a
 
 # Installation
 
-```
+```bash
 npx sniff-it
 ```

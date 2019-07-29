@@ -5,8 +5,6 @@ const bodyParser = require('body-parser')
 const util = require('util')
 const app = express()
 const port = 3001
-var multer  = require('multer')
-var upload = multer()
 
 const infos = [
   () => `[${new Date()}]`,

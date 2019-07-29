@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const ngrok = require('ngrok');
 const express = require('express')
 const bodyParser = require('body-parser')
